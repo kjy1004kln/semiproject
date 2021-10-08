@@ -1,0 +1,13 @@
+create SEQUENCE INBOUND_seq;
+INSERT INTO INBOUND VALUES(1,'2019-01-30','[ganaesra made] 실링 린넨 하프자켓',67000,100,'아이보리','S','outer');
+INSERT INTO INBOUND VALUES(2,'2019-01-30','[ganaesra made] 실링 린넨 하프자켓',67000,100,'아이보리','M','outer');
+INSERT INTO INBOUND VALUES(3,'2019-02-01','[ganaesra made] 실링 린넨 하프자켓',67000,100,'레드','S','outer');
+INSERT INTO INBOUND VALUES(4,'2019-02-01','[ganaesra made] 실링 린넨 하프자켓',67000,100,'레드','M','outer');
+INSERT INTO INBOUND VALUES(5,'2019-02-02','[ganaesra made] 썸머 넌스 브이넥자켓',66000,150,'라이트베이지','S','outer');
+INSERT INTO INBOUND VALUES(6,'2019-02-02','[ganaesra made] 썸머 넌스 브이넥자켓',66000,200,'라이트베이지','M','outer');
+INSERT INTO INBOUND VALUES(7,'2019-02-05','[ganaesra made] 썸머 넌스 브이넥자켓',66000,150,'멜론','S','outer');
+INSERT INTO INBOUND VALUES(8,'2019-02-05','[ganaesra made] 썸머 넌스 브이넥자켓',66000,200,'멜론','M','outer');
+INSERT INTO INBOUND VALUES(9,'2019-02-10','[ganaesra made] 시에나 린넨 하프자켓',69500,100,'차콜','S','outer');
+INSERT INTO INBOUND VALUES(10,'2019-02-10','[ganaesra made] 시에나 린넨 하프자켓',69500,100,'차콜','M','outer');
+INSERT INTO INBOUND VALUES(11,'2019-02-12','[ganaesra made] 로아 트위드 하프자켓',91000,100,'아이보리','FREE','outer');
+INSERT INTO INBOUND VALUES(12,'2019-02-15','[ganaesra made] 로아 트위드 하프자켓',91000,150,'블랙','FREE','outer');

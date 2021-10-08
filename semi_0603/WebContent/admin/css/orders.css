@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+.boardcss_list_table1 { 
+	position:absolute;
+	top:100px;
+	height:200px;
+	width: 1600px; 
+	left:200px;
+	border-top: 1px solid #8BBDFF;
+	border-bottom: 1px solid #8BBDFF; 
+}
+/* 화면에 보여지는 글 목록 테이블 */
+.ordelivery_table { 
+	position: absolute;
+	top:10px;
+	left:10px;
+	height:180px;
+	width:1580px;
+	font-size: 0.7rem;
+	display: block;
+  	overflow: auto;
+}
+/* list_table 에서 사용되는 thead */
+.ordelivery_table thead th { 
+	text-align: center; 
+	border-top: 1px solid #ABABAB;
+	border-bottom: 1px solid #ABABAB; 
+	padding: 8px 0; 
+	background: #faf9fa; 
+	width:600px;
+}
+.ordelivery_table tbody td { 
+	text-align: center;  
+	border-bottom: 1px solid #ABABAB; 
+	padding: 5px 0; 
+	width:600px;
+}
+
+
+
+.boardcss_list_table2 { 
+	position:absolute;
+	top:400px;
+	height:200px;
+	width: 1600px; 
+	left:200px;
+	border-top: 1px solid #8BBDFF;
+	border-bottom: 1px solid #8BBDFF; 
+}
+/* 화면에 보여지는 글 목록 테이블 */
+.ordelivery_com_table { 
+	position: absolute;
+	top:10px;
+	left:10px;
+	height:180px;
+	width:1580px;
+	font-size: 0.7rem;
+	display: block;
+  	overflow: auto;
+}
+/* list_table 에서 사용되는 thead */
+.ordelivery_com_table thead th { 
+	text-align: center; 
+	border-top: 1px solid #ABABAB;
+	border-bottom: 1px solid #ABABAB; 
+	padding: 8px 0; 
+	background: #faf9fa; 
+	width:600px;
+}
+.ordelivery_com_table tbody td { 
+	text-align: center;  
+	border-bottom: 1px solid #ABABAB; 
+	padding: 5px 0; 
+	width:600px;
+}
+
+
+
+.boardcss_list_table3 { 
+	position:absolute;
+	top:700px;
+	height:200px;
+	width: 1600px; 
+	left:200px;
+	border-top: 1px solid #8BBDFF;
+	border-bottom: 1px solid #8BBDFF; 
+}
+/* 화면에 보여지는 글 목록 테이블 */
+.orcomplete_table { 
+	position: absolute;
+	top:10px;
+	left:10px;
+	height:180px;
+	width:1580px;
+	font-size: 0.7rem;
+	display: block;
+  	overflow: auto;
+}
+/* list_table 에서 사용되는 thead */
+.orcomplete_table thead th { 
+	text-align: center; 
+	border-top: 1px solid #ABABAB;
+	border-bottom: 1px solid #ABABAB; 
+	padding: 8px 0; 
+	background: #faf9fa; 
+	width:600px;
+}
+.orcomplete_table tbody td { 
+	text-align: center;  
+	border-bottom: 1px solid #ABABAB; 
+	padding: 5px 0; 
+	width:600px;
+}

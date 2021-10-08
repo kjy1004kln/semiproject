@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+.boardcss_list_table { 
+	position:absolute;
+	top:100px;
+	height:400px;
+	width: 800px; 
+	left:50px;
+	border: 1px solid #8BBDFF;
+}
+/* 화면에 보여지는 글 목록 테이블 */
+.list_table { 
+	position: absolute;
+	top:50px;
+	left:50px;
+	height:300px;
+	width:700px;
+	font-size: 0.7rem;
+	display: block;
+  	overflow: auto;
+}
+/* list_table 에서 사용되는 thead */
+.list_table thead th { 
+	text-align: center; 
+	border-top: 1px solid #ABABAB;
+	border-bottom: 1px solid #ABABAB; 
+	padding: 8px 0; 
+	background: #faf9fa; 
+	width:600px;
+}
+.list_table tbody td { 
+	text-align: center;  
+	border-bottom: 1px solid #ABABAB; 
+	padding: 5px 0; 
+	width:600px;
+}
+
+.boardcss_list_table { 
+	position:absolute;
+	top:100px;
+	height:400px;
+	width: 800px; 
+	left:50px;
+	border-top: 1px solid #8BBDFF;
+	border-bottom: 1px solid #8BBDFF; 
+}
+	
+	
+.stocktext{
+	position: absolute;
+	left:50px;
+	top:10px;
+}
+
+.product_input{
+	position:absolute;
+	height:800px;
+	width: 800px; 
+	top:100px;
+	left:1000px;
+	border-top: 1px solid #8BBDFF;
+	border-bottom: 1px solid #8BBDFF; 
+}
+
+/*좌측 하단 메뉴*/
+.boardcss_list_table1 { 
+	position:absolute;
+	top:500px;
+	height:400px;
+	width: 800px; 
+	left:50px;
+	border: 1px solid #8BBDFF;
+}
+
+/* 우측메뉴 */
+.boardcss_list_table2 { 
+	position:absolute;
+	top:100px;
+	height:800px;
+	width: 800px; 
+	left:1000px;
+	border: 1px solid #8BBDFF;
+}
+
+.producttext{
+	position: absolute;
+	left:50px;
+	top:10px;
+}
+
+.list_table2 { 
+	position: absolute;
+	top:50px;
+	left:50px;
+	width:700px;
+	height:300px;
+	font-size: 0.7rem;
+	display: block;
+}
+	
+.list_table2 thead th { 
+	text-align: center; 
+	border-top: 1px solid #ABABAB;
+	border-bottom: 1px solid #ABABAB; 
+	padding: 8px 0; 
+	background: #faf9fa; 
+	width:600px;
+}
+	
+.list_table2 tbody td { 
+	text-align: center;  
+	border-bottom: 1px solid #ABABAB; 
+	padding: 5px 0; 
+	width:600px;
+}
+
+
+.page{
+	position: absolute;
+	top:765px;
+	left:380px;
+	font-size: 1.5rem;
+}

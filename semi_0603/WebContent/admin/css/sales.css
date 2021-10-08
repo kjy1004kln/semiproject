@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* 입고관리 */
+/* boardcss_list 에서 사용하는 글 목록 테이블 크기*/
+
+.top{
+	position:absolute;
+	height:170px;
+	width: 1700px; 
+	top:100px;
+	left:50px;
+	border-top: 1px solid #8BBDFF;
+	border-bottom: 1px solid #8BBDFF; 
+}
+
+.center { 
+	position:absolute;
+	height:300px;
+	width: 1700px; 
+	top:300px;
+	left:50px;
+	border-top: 1px solid #8BBDFF;
+	border-bottom: 1px solid #8BBDFF; 
+	}
+
+.under { 
+	position:absolute;
+	height:300px;
+	width: 1700px; 
+	top:630px;
+	left:50px;
+	border-top: 1px solid #8BBDFF;
+	border-bottom: 1px solid #8BBDFF; 
+}
+
+

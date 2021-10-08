@@ -1,0 +1,56 @@
+.boardcss_list_table { 
+	position:absolute;
+	height:400px;
+	width: 90%; 
+	top:100px;
+	left:50px;
+	border-top: 1px solid #8BBDFF;
+	border-bottom: 1px solid #8BBDFF; 
+}
+.prolisttext1{
+	position: absolute;
+	left:50px;
+	top:10px;
+}
+
+.list_table { 
+	position: absolute;
+	top:50px;
+	left:5%;
+	width:90%;
+	font-size: 0.7rem;
+	}
+	
+/* list_table 에서 사용되는 thead */
+.list_table thead th { 
+	text-align: center; 
+	border-top: 1px solid #ABABAB;
+	border-bottom: 1px solid #ABABAB; 
+	padding: 8px 0; 
+	background: #faf9fa; 
+	}
+	
+.list_table tbody td { 
+	text-align: center;  
+	border-bottom: 1px solid #ABABAB; 
+	padding: 5px 0; 
+	}
+
+.inboundlist_table{
+	position: absolute;
+	top:10px;
+	left:5%;
+}
+
+.page{
+	position: absolute;
+	top:370px;
+	left:800px;
+}
+
+.find{
+	position: absolute;
+	right:5%;
+	top:10px;
+}
+	

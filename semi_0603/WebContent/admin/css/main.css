@@ -1,0 +1,90 @@
+.boardcss_list_table { 
+	position:absolute;
+	top:50px;
+	height:400px;
+	width: 600px; 
+	left:100px;
+	border-top: 1px solid #8BBDFF;
+	border-bottom: 1px solid #8BBDFF; 
+}
+
+
+
+/*
+.maintext1{
+	position: absolute;
+	top:10px;
+	left:50px;
+}
+
+.subtext1{
+	position: absolute;
+	top:70px;
+	left:50px;
+}
+
+.qna_table1 { 
+	position: absolute;
+	top:100px;
+	left:50px;
+	height:100px;
+	width:500px;
+	font-size: 0.7rem;
+	display: block;
+  	overflow: auto;
+}
+.qna_table1 thead th { 
+	text-align: center; 
+	border-top: 1px solid #ABABAB;
+	border-bottom: 1px solid #ABABAB; 
+	padding: 8px 0; 
+	background: #faf9fa; 
+	width:400px;
+}
+.qna_table1 tbody td { 
+	text-align: center;  
+	border-bottom: 1px solid #ABABAB; 
+	padding: 5px 0; 
+	width:400px;
+}
+
+.subtext2{
+	position: absolute;
+	top:220px;
+	left:50px;
+}
+
+.qna_table2 { 
+	position: absolute;
+	top:250px;
+	left:50px;
+	height:100px;
+	width:500px;
+	font-size: 0.7rem;
+	display: block;
+  	overflow: auto;
+}
+.qna_table2 thead th { 
+	text-align: center; 
+	border-top: 1px solid #ABABAB;
+	border-bottom: 1px solid #ABABAB; 
+	padding: 8px 0; 
+	background: #faf9fa; 
+	width:400px;
+}
+.qna_table2 tbody td { 
+	text-align: center;  
+	border-bottom: 1px solid #ABABAB; 
+	padding: 5px 0; 
+	width:400px;
+}
+
+.product_list_table{
+	position: absolute;
+	top:500px;
+	left:100px;
+	height:400px;
+	width:1650px; 
+	border-top: 1px solid #8BBDFF; 
+	border-bottom: 1px solid #8BBDFF; 
+}*/

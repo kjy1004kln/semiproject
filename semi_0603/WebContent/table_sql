@@ -1,0 +1,83 @@
+CREATE TABLE INBOUND
+(
+	INID NUMBER(4) NOT NULL,
+	INDATE DATE,
+	INNAME VARCHAR2(100),
+	INPRICE NUMBER(10),
+	INAMOUNT NUMBER(4),
+	INCOLOR VARCHAR2(20),
+	INSIZE VARCHAR2(20),
+	INCATEGORY VARCHAR2(50),
+	PRIMARY KEY (INID)
+);
+CREATE TABLE FAQ
+(
+   FID NUMBER(4) NOT NULL,
+   FTITLE VARCHAR2(100),
+   FCONTENT VARCHAR2(4000),
+   -- DATE DEFAULT SYSDATE
+   FRDATE DATE,
+   -- DEFAULT 0
+   FHIT NUMBER(4),
+   -- 0.     
+   -- 1.      
+   FPUBLIC_PRIVATE NUMBER(3),
+   AID VARCHAR2(10) NOT NULL,
+   PRIMARY KEY (FID)
+);
+--inbound
+INSERT INTO INBOUND VALUES(1,'2019-01-30','[ganaesra made] 실링 린넨 하프자켓',67000,100,'아이보리','S','outer');
+INSERT INTO INBOUND VALUES(2,'2019-01-30','[ganaesra made] 실링 린넨 하프자켓',67000,100,'아이보리','M','outer');
+INSERT INTO INBOUND VALUES(3,'2019-02-01','[ganaesra made] 실링 린넨 하프자켓',67000,100,'레드','S','outer');
+INSERT INTO INBOUND VALUES(4,'2019-02-01','[ganaesra made] 실링 린넨 하프자켓',67000,100,'레드','M','outer');
+INSERT INTO INBOUND VALUES(5,'2019-02-02','[ganaesra made] 썸머 넌스 브이넥자켓',66000,150,'라이트베이지','S','outer');
+INSERT INTO INBOUND VALUES(6,'2019-02-02','[ganaesra made] 썸머 넌스 브이넥자켓',66000,200,'라이트베이지','M','outer');
+INSERT INTO INBOUND VALUES(7,'2019-02-05','[ganaesra made] 썸머 넌스 브이넥자켓',66000,150,'멜론','S','outer');
+INSERT INTO INBOUND VALUES(8,'2019-02-05','[ganaesra made] 썸머 넌스 브이넥자켓',66000,200,'멜론','M','outer');
+INSERT INTO INBOUND VALUES(9,'2019-02-10','[ganaesra made] 시에나 린넨 하프자켓',69500,100,'차콜','S','outer');
+INSERT INTO INBOUND VALUES(10,'2019-02-10','[ganaesra made] 시에나 린넨 하프자켓',69500,100,'차콜','M','outer');
+INSERT INTO INBOUND VALUES(11,'2019-02-12','[ganaesra made] 로아 트위드 하프자켓',91000,100,'아이보리','FREE','outer');
+INSERT INTO INBOUND VALUES(12,'2019-02-15','[ganaesra made] 로아 트위드 하프자켓',91000,150,'블랙','FREE','outer');
+
+
+INSERT INTO MEMBERS VALUES('1111','1111','창지윤','용산구','11111','01011111111',SYSDATE,'1993-06-02',0,1000,'111@naver.com','집','지영','01011111111');
+
+--head_admin
+insert into head_admin values('admin','1111','j4',1,sysdate);
+
+--notice
+insert into notice values(1,'공지1','공지사항입니다','첨부파일',sysdate,0,0,'admin');
+insert into notice values(2,'공지2','공지사항입니다','첨부파일',sysdate,0,0,'admin');
+insert into notice values(3,'공지3','공지사항입니다','첨부파일',sysdate,0,0,'admin');
+insert into notice values(4,'공지4','공지사항입니다','첨부파일',sysdate,0,0,'admin');
+insert into notice values(5,'공지5','공지사항입니다','첨부파일',sysdate,0,0,'admin');
+insert into notice values(6,'공지6','공지사항입니다','첨부파일',sysdate,0,0,'admin');
+insert into notice values(7,'공지7','공지사항입니다','첨부파일',sysdate,0,0,'admin');
+insert into notice values(8,'공지8','공지사항입니다','첨부파일',sysdate,0,0,'admin');
+insert into notice values(9,'공지9','공지사항입니다','첨부파일',sysdate,0,0,'admin');
+insert into notice values(10,'공지10','공지사항입니다','첨부파일',sysdate,0,0,'admin');
+insert into notice values(11,'공지11','공지사항입니다','첨부파일',sysdate,0,0,'admin');
+
+--faq
+insert into faq(fid,ftitle,fcontent,aid) values(1,'자주하는질문1?','답변1','admin');
+insert into faq(fid,ftitle,fcontent,aid) values(2,'자주하는질문2?','답변2','admin');
+insert into faq(fid,ftitle,fcontent,aid) values(3,'자주하는질문3?','답변3','admin');
+
+--product
+insert into product(pid,pprice,pdiscount,pimage2,sid) values(1,20000,10,'/img/63b23a5c87706fafe69c53ce9ae160ba.webp',1);
+insert into product(pid,pprice,pdiscount,pimage2,sid) values(2,10000,5,'/img/63b23a5c87706fafe69c53ce9ae160ba.webp',5);
+insert into product(pid,pprice,pdiscount,pimage2,sid) values(3,120000,50,'/img/830089c08629c881a96a827cb6f63d98.webp',6);
+
+--stock
+insert into stock values(1,'[ganaesra made] 실링 린넨 하프자켓','아이보리','S',100);
+insert into stock values(2,'[ganaesra made] 실링 린넨 하프자켓','아이보리','M',100);
+insert into stock values(3,'[ganaesra made] 실링 린넨 하프자켓','레드','S',100);
+insert into stock values(4,'[ganaesra made] 썸머 넌스 브이넥자켓','라이트베이지','S',100);
+insert into stock values(5,'[ganaesra made] 썸머 넌스 브이넥자켓','멜론','M',100);
+insert into stock values(6,'[ganaesra made] 시에나 린넨 하프자켓','차콜','S',100);
+insert into stock values(7,'[ganaesra made] 시에나 린넨 하프자켓','차콜','M',100);
+
+--userqna
+insert into userqna values(1,1,'1111','제목','내용','img',sysdate,0,1,'1111',1);
+
+
